@@ -176,6 +176,10 @@ a.theme-button:hover {
 
 }
 
+.about-area img {
+    border-radius: 3%;
+}
+
 
 .about-text {
     margin-left: 35px;
