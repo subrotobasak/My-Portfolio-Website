@@ -1,0 +1,510 @@
+/* Google Fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Open+Sans:wght@400;500&family=Roboto:wght@700;900&display=swap');
+
+/* Base CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #bebbc7;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+
+h4 {
+    color: #00c0ff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+h6 {
+
+    color: #ffffff;
+    font-size: 18px;
+
+}
+
+a {
+    font-weight: 500;
+}
+
+
+.container {
+    padding: 0 6%;
+}
+
+a.theme-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00c0ff;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 14px 28px;
+    border-radius: 50px;
+    transition: 0.3s;
+
+}
+
+a.theme-button:hover {
+    background-color: #ffffff;
+    color: #00c0ff;
+}
+
+/* Header Area CSS Start*/
+
+.header-area {
+    padding: 30px 0;
+}
+
+.header-area h1 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+
+.nav-menu a:hover {
+    color: #00c0ff;
+
+}
+
+
+
+.menu-icon {
+    display: none;
+}
+
+.icon {
+    background-color: #3a2b71;
+    padding: 10px 20px
+}
+
+/* Header Area CSS End*/
+
+/* Hero Area CSS Start*/
+.hero-area {
+    padding: 50px 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: #ffffff;
+
+
+}
+
+
+.hero-text .color-font {
+    color: #00c0ff;
+}
+
+
+.hero-text h4 {
+    font-size: 20px;
+    color: #bebbc7;
+
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Hero Area Css End */
+
+/* About Area CSS Start */
+.about-content {
+    display: flex;
+
+}
+
+
+.about-text {
+    margin-left: 35px;
+}
+
+.about-text h3 {
+    color: #ffffff;
+}
+
+.about-text p {
+    margin-top: 3px;
+}
+
+.about-details {
+    padding: 30px 60px 30px 30px;
+    border: 1px solid #bebbc7;
+}
+
+.about-one {
+    border-radius: 6px 0px 0px 6px;
+}
+
+.about-two {
+    border-radius: 0px 6px 6px 0px;
+    border-left: 0;
+}
+
+/* About Area CSS End */
+
+/* Skills Area CSS Start */
+.skilss-area {
+    padding: 80px;
+
+}
+
+.skilss-area h2 {
+    margin-bottom: 45px;
+}
+
+
+.skills-progressbar .progress .progress-bar {
+    background-color: #00c0ff;
+}
+
+/* Skills Area CSS End */
+
+/* Service Area Start */
+.service-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.single-service {
+    background-color: #3a2b71;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.single-service h3 {
+    color: #ffffff;
+}
+
+.single-service i {
+    color: #ffffff;
+    font-size: 26px;
+    background-color: #00c0ff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-bottom: 8px;
+}
+
+/* Service Area CSS End */
+
+/* Specialty Area */
+.specialty-area {
+    padding-top: 25px;
+}
+
+.details-specialty .accordion-button {
+    background-color: #00c0ff;
+    color: #ffffff;
+}
+
+
+
+.details-specialty .accordion-item {
+    color: #bebbc7;
+    background-color: #3a2b71;
+
+}
+
+/* Specialty Area CSS End */
+
+/* Portfolio Area CSS Start */
+.portfolio-area {
+    padding-top: 25px;
+}
+
+.portfolio-content .card {
+    display: inline-block;
+    background-color: #3a2b71;
+}
+
+.portfolio-content .card-body h5 {
+    color: #ffffff;
+}
+
+.portfolio-content .card-body a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00c0ff;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 7px 14px;
+    border-radius: 50px;
+    transition: 0.3s;
+
+}
+
+.portfolio-content .card-body a:hover {
+    background-color: #ffffff;
+    color: #00c0ff;
+}
+
+/* Portfolio Area CSS End */
+
+/* Conatct Area CSS Start */
+.contact-area {
+    padding-top: 25px;
+}
+
+.contact-content {
+    display: flex;
+    margin-bottom: 25px;
+
+
+}
+
+
+
+.contact-content form {
+    display: grid;
+    grid-template-areas:
+        "n e"
+        "p s"
+        "m m"
+        "b b";
+    gap: 15px;
+
+}
+
+#contactName {
+    grid-area: n;
+
+}
+
+#contactEmail {
+    grid-area: e;
+}
+
+#contactPhone {
+    grid-area: p;
+
+}
+
+#contactSubject {
+    grid-area: s;
+
+}
+
+#contactMessage {
+    grid-area: m;
+
+}
+
+#submitButton {
+    grid-area: b;
+
+
+}
+
+.contact-text ul li {
+    list-style-type: none;
+
+}
+
+.contact-text ul li i {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    background-color: #00c0ff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    list-style-type: none;
+
+
+}
+
+.contact-text ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact-form input {
+    font-size: 17px;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #bebbc7;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.contact-form textarea {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #bebbc7;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.contact-form a {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Conatct Area CSS End */
+
+/* Preeloader Area CSS Start*/
+#preloader-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#preloader-area::after,
+#preloader-area::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background-color: #3a2b71;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+}
+
+#preloader-area::before {
+    left: 0;
+
+}
+
+#preloader-area::after {
+    right: 0;
+}
+
+.page-loaded .spinner-border {
+    display: none;
+
+}
+
+#preloader-area.page-loaded::before {
+    left: -50%;
+
+}
+
+#preloader-area.page-loaded::after {
+    right: -50%;
+}
+
+/* Preeloader Area CSS End*/
+
+/* Footer Area CSS Start*/
+.footer-area {
+    padding: 10px 0;
+    background-color: #3a2b71;
+
+
+}
+
+.footer-text p {
+    margin: 0;
+}
+
+
+.footer-area ul {
+    list-style: none;
+    text-align: right;
+
+
+
+}
+
+.footer-area ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.footer-area ul li i {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #00c0ff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+/* Footer Area CSS End*/

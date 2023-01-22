@@ -1,0 +1,187 @@
+/* Responsive Design for Tab */
+
+/* Header Area CSS Start*/
+@media (max-width: 991px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .header-content {
+        grid-template-areas:
+            "l i"
+            "m m";
+    }
+
+    .logo {
+        grid-area: 1;
+    }
+
+    .nav-menu {
+        grid-area: m;
+        text-align: center;
+        background-color: #3a2b71;
+        margin-top: 10px;
+        padding: 15px 0;
+        display: none;
+        
+
+
+    }
+    .nav-menu.show-menu {
+        display: block;
+    }
+
+
+    .nav-menu a {
+        display: block;
+        padding: 12px 0;
+        margin-left: 0;
+    }
+
+
+    .menu-icon {
+        display: block;
+        grid-area: i;
+        justify-self: end;
+        cursor: pointer;
+    }
+
+    /* Header Area CSS End*/
+
+    /* Hero Area CSS Start*/
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-image {
+        order: -1;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+     /* Hero Area CSS End*/
+
+    /* About Area CSS Start*/
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-content img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .about-text {
+        margin-left: 0;
+
+
+    }
+
+    .about-one {
+        border-radius: 6px 6px 6px 6px;
+    }
+
+
+    .about-two {
+        margin-top: 30px;
+        border: 1px solid #bebbc7;
+        border-radius: 6px 6px 6px 6px;
+    }
+
+    /* About Area CSS End*/
+ 
+     /* Service Area CSS Start */
+     .service-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+     /* Service Area CSS End */
+
+    /* Portfolio Area CSS Start */
+    .portfolio-content .card {
+        margin-bottom: 25px;
+
+    }
+
+    /* Portfolio Area CSS End */
+
+    /* Contact Area CSS Start */
+    .contact-content {
+        flex-direction: column;
+
+    }
+
+    .contact-form {
+        margin-top: 10px;
+    }
+
+    .contact-form form {
+
+        display: grid;
+        grid-template-areas:
+            "n n"
+            "e e"
+            "p p"
+            "s s"
+            "m m"
+            "b b";
+    }
+
+    /* Contact Area CSS End */
+
+
+    /* Footer Area CSS Start*/
+    .footer-text {
+        margin-bottom: 25px;
+        font-size: 14px;
+        margin-top: 10px;
+        
+    }
+
+
+    .footer-area ul li {
+    margin-top: 3px;
+    }
+}
+
+/* Footer Area CSS End*/
+
+/* Responsive Design for Mobile */
+@media (max-width: 575px) {
+
+
+    /* Service Area CSS Start */
+    .service-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Service Area CSS End*/
+
+    /* specialty-area CSS Start */
+    .specialty-area .Specialty-Accordion {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    /* specialty-area CSS End */
+
+    /* Footer Area CSS Start */
+    .footer-text {
+        margin-left: 80px;
+        
+        
+    }
+
+    .footer-area ul{
+   margin-right: 80px;
+    }
+
+    /* Footer Area CSS End */
+
+}
